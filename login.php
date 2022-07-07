@@ -67,9 +67,9 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
             <div class="row m-0">
                 <div class="col-lg-4 offset-lg-4">
                     <div class="text-center pb-5">
-                        <h1 class="login-title text-dark">Login</h1>
+                        <h1 class="login-title text-light">Login</h1>
                         <p class="p1 m-0 text-warning">Log into your Rwesero ID</p>
-                        <span class="text-dark">Don't have an account? <a href="register.php">Create one</a></span>
+                        <span class="text-light">Don't have an account? <a href="register.php">Create one</a></span>
                     </div>
 
                     <div class="d-flex justify-content-center">
@@ -88,11 +88,11 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
 
                             <div class="form-check form-check-inline">
                                 <input type="checkbox" name="agreement" class="form-check-input" required>
-                                <label for="agreement" class="form-check-label text-dark">I agree <a href="#">Terms &amp; Conditions</a> (*)</label>
+                                <label for="agreement" class="form-check-label text-light">I agree <a href="#">Terms &amp; Conditions</a> (*)</label>
                             </div>
 
                             <div class="submit-btn text-center my-5">
-                                <button id="submit" type="submit" class="btn btn-warning rounded-pill text-dark px-5">Login</button>
+                                <button id="submit" type="submit" class="btn btn-warning rounded-pill text-light px-5">Login</button>
                             </div>
                         </form>
                     </div>
