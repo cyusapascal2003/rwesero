@@ -57,7 +57,7 @@
           <nav class="main-nav">
             <!-- ***** Logo Start ***** -->
             <a href="home.php" class="logo">
-              <img src="images/logo-mini.svg" class="mr-2" alt="logo">
+              <img src="images/psr-small.svg" class="mr-2" alt="logo">
             </a>
             <!-- ***** Logo End ***** -->
             <!-- ***** Menu Start ***** -->

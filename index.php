@@ -30,6 +30,10 @@ $user_data = check_login($con);
   <link rel="stylesheet" href="css/vertical-layout-light/style.css">
   <!-- endinject -->
   <link rel="shortcut icon" href="images/favicon.png" />
+
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+
 </head>
 
 <body>
@@ -37,8 +41,8 @@ $user_data = check_login($con);
     <!-- partial:partials/_navbar.html -->
     <nav class="navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
       <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
-        <a class="navbar-brand brand-logo mr-5" href="index.php"><img src="images/logo.svg" class="mr-2" alt="logo" /></a>
-        <a class="navbar-brand brand-logo-mini" href="index.php"><img src="images/logo-mini.svg" alt="logo" /></a>
+        <a class="navbar-brand brand-logo mr-5" href="index.php"><img src="images/psr.svg" class="mr-2" alt="logo" /></a>
+        <a class="navbar-brand brand-logo-mini" href="index.php"><img src="images/psr.svg" alt="logo" /></a>
       </div>
       <div class="navbar-menu-wrapper d-flex align-items-center justify-content-end">
         <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-toggle="minimize">
@@ -67,26 +71,26 @@ $user_data = check_login($con);
               <a class="dropdown-item preview-item">
                 <div class="preview-thumbnail">
                   <div class="preview-icon bg-success">
-                    <i class="ti-info-alt mx-0"></i>
+                    <i class="ti-file mx-0"></i>
                   </div>
                 </div>
                 <div class="preview-item-content">
-                  <h6 class="preview-subject font-weight-normal">Application Error</h6>
+                  <h6 class="preview-subject font-weight-normal">Period results are out</h6>
                   <p class="font-weight-light small-text mb-0 text-muted">
-                    Just now
+                    Check scores
                   </p>
                 </div>
               </a>
               <a class="dropdown-item preview-item">
                 <div class="preview-thumbnail">
                   <div class="preview-icon bg-warning">
-                    <i class="ti-settings mx-0"></i>
+                    <i class="ti-face-smile mx-0"></i>
                   </div>
                 </div>
                 <div class="preview-item-content">
-                  <h6 class="preview-subject font-weight-normal">Settings</h6>
+                  <h6 class="preview-subject font-weight-normal">New Event</h6>
                   <p class="font-weight-light small-text mb-0 text-muted">
-                    Private message
+                    Saint Dominique
                   </p>
                 </div>
               </a>
@@ -318,7 +322,7 @@ $user_data = check_login($con);
           </li>
           <li class="nav-item">
             <a class="nav-link" data-toggle="collapse" href="#auth" aria-expanded="false" aria-controls="auth">
-              <i class="icon-head menu-icon"></i>
+              <i class="bi bi-person-circle"></i>
               <span class="menu-title">My Profile</span>
               <i class="menu-arrow"></i>
             </a>
@@ -331,7 +335,7 @@ $user_data = check_login($con);
           </li>
           <li class="nav-item">
             <a class="nav-link" data-toggle="collapse" href="#ui-basic" aria-expanded="false" aria-controls="ui-basic">
-              <i class="icon-layout menu-icon"></i>
+              <i class="bi bi-mortarboard"></i>
               <span class="menu-title">Academics</span>
               <i class="menu-arrow"></i>
             </a>
@@ -344,7 +348,7 @@ $user_data = check_login($con);
           </li>
           <li class="nav-item">
             <a class="nav-link" data-toggle="collapse" href="#form-elements" aria-expanded="false" aria-controls="form-elements">
-              <i class="icon-columns menu-icon"></i>
+              <i class="bi bi-journal-check"></i>
               <span class="menu-title">Classes</span>
               <i class="menu-arrow"></i>
             </a>
@@ -357,7 +361,7 @@ $user_data = check_login($con);
           </li>
           <li class="nav-item">
             <a class="nav-link" data-toggle="collapse" href="#charts" aria-expanded="false" aria-controls="charts">
-              <i class="icon-bar-graph menu-icon"></i>
+              <i class="bi bi-cash-coin"></i>
               <span class="menu-title">Tuition &amp; Aid</span>
               <i class="menu-arrow"></i>
             </a>
@@ -370,7 +374,7 @@ $user_data = check_login($con);
           </li>
           <li class="nav-item">
             <a class="nav-link" data-toggle="collapse" href="#tables" aria-expanded="false" aria-controls="tables">
-              <i class="icon-grid-2 menu-icon"></i>
+              <i class="bi bi-heart-pulse"></i>
               <span class="menu-title">Student Living</span>
               <i class="menu-arrow"></i>
             </a>
@@ -382,8 +386,8 @@ $user_data = check_login($con);
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="pages/documentation/documentation.html">
-              <i class="icon-paper menu-icon"></i>
+            <a class="nav-link" href="#">
+              <i class="bi bi-file-zip"></i>
               <span class="menu-title">Documentation</span>
             </a>
           </li>
@@ -1090,7 +1094,7 @@ $user_data = check_login($con);
         <!-- partial:partials/_footer.html -->
         <footer class="footer">
           <div class="d-sm-flex justify-content-center justify-content-sm-between">
-            <span class="text-muted text-center text-sm-left d-block d-sm-inline-block">Copyright © 2021. <a href="#" target="_blank">Rwesero</a> All rights reserved.</span>
+            <span class="text-muted text-center text-sm-left d-block d-sm-inline-block">Copyright © 2022. <a href="#" target="_blank">Rwesero</a></span>
             <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center"><a href="#">Terms &amp; Conditions</a></span>
           </div>
         </footer>
@@ -1122,6 +1126,7 @@ $user_data = check_login($con);
   <!-- Custom js for this page-->
   <script src="js/dashboard.js"></script>
   <script src="js/Chart.roundedBarCharts.js"></script>
+
   <!-- End custom js for this page-->
 </body>
 
