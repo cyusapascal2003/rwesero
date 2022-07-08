@@ -14,7 +14,9 @@ body {
     padding: 5% 0;
 }
 
-#register .upload-profile-image {
+/* Upload profile Image */
+
+/* #register .upload-profile-image {
     position: relative;
     width: 10%;
     margin-left: auto;
@@ -57,7 +59,7 @@ body {
 
 #register .upload-profile-image:hover .camera-icon {
     filter: invert(100%) !important;
-}
+} */
 
 #reg-form input[type='text'],
 #reg-form input[type='email'],
