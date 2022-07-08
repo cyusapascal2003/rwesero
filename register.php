@@ -42,7 +42,10 @@ include('header.php');
                 <p class="p1 m-0 text-warning">Create your Rwesero ID</p>
                 <span class="text-light">Already have an account? <a href="login.php">Login</a></span>
             </div>
-            <div class="upload-profile-image d-flex justify-content-center pb-5">
+
+            <!-- Upload profile image -->
+
+            <!-- <div class="upload-profile-image d-flex justify-content-center pb-5">
                 <div class="text-center">
                     <div class="d-flex justify-content-center">
                         <img class="camera-icon" src="images/camera.png" alt="camera">
@@ -51,7 +54,7 @@ include('header.php');
                     <small class="form-text text-light">Choose Image</small>
                     <input type="file" class="form-control-file" name="pp" id="upload-profile">
                 </div>
-            </div>
+            </div> -->
 
             <div class="d-flex justify-content-center">
                 <form action="register.php" method="post" enctype="multipart/form-data" id="reg-form">
