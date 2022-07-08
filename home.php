@@ -7,7 +7,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="TemplateMo">
-  <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;0,900;1,400&display=swap" rel="stylesheet">
 
   <title>Petit Séminaire de Rwesero</title>
 
@@ -95,7 +97,7 @@
               <h6>Welcome</h6>
               <h2>To the Oasis of Knowledge</h2>
               <p>
-                A 6 years secondary, coeducational, college-
+                A 6 years secondary, boys-only, college-
                 preparatory boarding school, Petit Séminaire de Rwesero was established in
                 1956 by a group of Salesian Missionaries to
                 provide an religious-based education for young men who want to become priests,
@@ -103,7 +105,7 @@
                 heritages.
               </p>
               <div class="main-button-red">
-                <div class="scroll-to-section"><a href="#contact">Join Us Now!</a></div>
+                <div class="scroll-to-section"><a href="#contact">Learn More</a></div>
               </div>
             </div>
           </div>
@@ -292,7 +294,7 @@
                 <h3>APPLY FOR BACHELOR DEGREE</h3>
                 <p>You are allowed to use this edu meeting CSS template for your school or university or business. You can feel free to modify or edit this layout.</p>
                 <div class="main-button-red">
-                  <div class="scroll-to-section"><a href="#contact">Join Us Now!</a></div>
+                  <div class="scroll-to-section"><a href="#contact">Join Us Now</a></div>
                 </div>
               </div>
             </div>
@@ -301,7 +303,7 @@
                 <h3>APPLY FOR BACHELOR DEGREE</h3>
                 <p>You are not allowed to redistribute the template ZIP file on any other template website. Please contact us for more information.</p>
                 <div class="main-button-yellow">
-                  <div class="scroll-to-section"><a href="#contact">Join Us Now!</a></div>
+                  <div class="scroll-to-section"><a href="#contact">Join Us Now</a></div>
                 </div>
               </div>
             </div>
