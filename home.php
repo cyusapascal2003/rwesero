@@ -39,10 +39,17 @@
         </div>
         <div class="col-lg-4 col-sm-4">
           <div class="right-icons">
-            <ul>
-              <li><a href="login.php">SIS</a></li>
-              <li><a href="#">QUICKLINKS</a></li>
-            </ul>
+            <div class="navbar">
+              <a href="index.php">SIS</a>
+              <div class="subnav">
+                <button class="subnavbtn">QUICKLINKS <i class="fa fa-caret-down"></i></button>
+                <div class="subnav-content">
+                  <a href="#bring">Link1</a>
+                  <a href="#bring">Link2</a>
+                  <a href="#bring">Link3</a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -57,7 +64,7 @@
           <nav class="main-nav">
             <!-- ***** Logo Start ***** -->
             <a href="home.php" class="logo">
-              <img src="images/psr-small.svg" class="mr-2" alt="logo">
+              <img src="images/psr-small.svg" class="mr-2 mt-4" alt="logo">
             </a>
             <!-- ***** Logo End ***** -->
             <!-- ***** Menu Start ***** -->

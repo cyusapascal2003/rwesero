@@ -263,12 +263,14 @@ header
   background-color: #1f272b;
   position: relative;
   z-index: 1111;
+  height: 60px;
 }
 
 .sub-header .left-content p {
   color: #fff;
   padding: 8px 0px;
   font-size: 13px;
+  margin-top: 8px;
 }
 
 .sub-header .right-icons {
@@ -276,25 +278,91 @@ header
   padding: 8px 0px;
 }
 
-.sub-header .right-icons ul li {
-  display: inline-block;
-  margin-left: 15px;
-}
-
-.sub-header .right-icons ul li a {
-  color: #fff;
-  font-size: 14px;
-  transition: all .3s;
-}
-
-.sub-header .right-icons ul li a:hover {
-  color: #f5a425;
-}
-
 .sub-header .left-content p em {
   font-style: normal;
   color: #f5a425;
 }
+
+
+
+
+
+
+
+/* The navigation menu */
+.navbar {
+  /* overflow: hidden; */
+  background-color: #1f272b;
+}
+
+/* Navigation links */
+.navbar a {
+  float: left;
+  font-size: 12px;
+  color: white;
+  text-align: center;
+  padding: 7px 8px;
+  text-decoration: none;
+}
+
+/* The subnavigation menu */
+.subnav {
+  float: left;
+  overflow: hidden;
+}
+
+/* Subnav button */
+.subnav .subnavbtn {
+  font-size: 12px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 8px 8px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+/* Add a red background color to navigation links on hover */
+.navbar a:hover,
+.subnav:hover .subnavbtn {
+  background-color: #38444a;
+}
+
+/* Style the subnav content - positioned absolute */
+.subnav-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: #1f272b;
+  width: 100%;
+  z-index: 1;
+}
+
+/* Style the subnav links */
+.subnav-content a {
+  float: left;
+  color: white;
+  text-decoration: none;
+}
+
+/* Add a grey background color on hover */
+.subnav-content a:hover {
+  background-color: #38444a;
+  color: black;
+}
+
+/* When you move the mouse over the subnav container, open the subnav content */
+.subnav:hover .subnav-content {
+  display: block;
+}
+
+
+
+
+
+
+
 
 .background-header {
   background-color: #fff !important;
