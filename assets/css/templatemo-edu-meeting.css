@@ -290,13 +290,13 @@ header
 
 
 /* The navigation menu */
-.navbar {
+.sub-navbar {
   /* overflow: hidden; */
   background-color: #1f272b;
 }
 
 /* Navigation links */
-.navbar a {
+.sub-navbar a {
   float: left;
   font-size: 12px;
   color: white;
